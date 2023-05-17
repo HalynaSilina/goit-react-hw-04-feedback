@@ -1,0 +1,11 @@
+.container {
+  max-width: 100%;
+  min-height: 92vh;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #897174;
+  background-image: url(../images/cafe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

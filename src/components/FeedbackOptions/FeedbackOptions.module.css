@@ -1,0 +1,27 @@
+.controls {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.button {
+  min-width: 100px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-transform: capitalize;
+  color: #482d31;
+  background-color: #f9f871;
+  border-color: #d29356;
+  outline-color: #d29356;
+  transition: background-color 300ms ease-in-out,
+    box-shadow 300ms ease-in-out 300ms;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #edc35e;
+  box-shadow: 0px 5px 20px 15px rgba(249, 248, 113, 0.7);
+}
